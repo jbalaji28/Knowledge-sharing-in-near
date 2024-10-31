@@ -1,0 +1,24 @@
+/* src/components/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
